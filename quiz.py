@@ -6,7 +6,7 @@ correct = 0
 incorrect = 0
 
 name = input("Enter name: ")
-def typing_effect(text, delay=0.0001):
+def typing_effect(text, delay=0.1):
     for char in text:
         print(char, end='', flush=True)
         time.sleep(delay)
@@ -101,4 +101,5 @@ if confirmation.lower() == "yes":
 
 else:
     print ("oH OKAY then. Have a nice day.")
+
 
