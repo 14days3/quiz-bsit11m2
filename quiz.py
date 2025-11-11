@@ -93,13 +93,14 @@ if confirmation.lower() == "yes":
     totalc = totalall - incorrect
     total_time = timer_end - timer_start
     print(Fore.MAGENTA + "================== Final Results ==================")
-    print(f"Congratulations, {name}, You got {correct} correct answers!")
-    print(f"You got {incorrect} wrong answers!")
-    print(f"Total score: {totalc} out of {totalall}")
-    print(f"Total time: {total_time:.2f} seconds.")
+    typing_effect(f"Congratulations, {name}, You got {correct} correct answers!")
+    typing_effect(f"You got {incorrect} wrong answers!")
+    typing_effect(f"Total score: {totalc} out of {totalall}")
+    typing_effect(f"Total time: {total_time:.2f} seconds.")
 
 
 else:
-    print ("oH OKAY then. Have a nice day.")
+    print (" ")
+
 
 
